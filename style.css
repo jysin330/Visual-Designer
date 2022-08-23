@@ -386,12 +386,13 @@ footer .logo {
   }
 
   .experience1 h3 {
-    font-size: 1em;
+    font-size: 1.4em;
   }
 
 
   .experience2 {
     align-items: center;
+    /* justify-content: center; */
     flex-direction: column;
     width: 40vw;
 
@@ -399,21 +400,22 @@ footer .logo {
 
   .exp {
     text-align: center;
-    padding: 15px;
-
+    padding: 1em 2em;
+    margin-left: -2em;
     width: 40vw;
 
   }
 
   .exp h3 {
 
-    font-size: 2em;
+    font-size: 2.3em;
     margin-right: 0em;
   }
 
   .exp h6 {
+    margin-bottom: 0em;
 
-    font-size: 1em;
+    font-size: 1.1em;
     margin-right: 0em;
   }
 
