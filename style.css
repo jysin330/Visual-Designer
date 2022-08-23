@@ -361,9 +361,9 @@ footer .logo {
 
   .productDetail {
 
-    padding: 3em 3em;
+    padding: 3em 4em;
     margin: 1em 0em;
-    width: 25%;
+    width: 40vw;
     text-align: center;
 
   }
@@ -474,7 +474,7 @@ footer .logo {
 
     margin: 5em auto;
     width: 40vw;
-    padding: 20px;
+    padding: 3em 3em;
     text-align: center;
     flex-direction: column;
 
@@ -487,12 +487,12 @@ footer .logo {
   }
 
   .contactHead h1 {
-    font-size: 1.3em;
+    font-size: 1.4em;
 
   }
 
   .contactHead p {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   .contact button.button {
