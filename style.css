@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Londrina+Shadow&family=Merriweather:wght@900&family=Montserrat:ital,wght@0,300;0,400;0,500;1,500&family=Prompt:wght@300&display=swap');
+
+* {
+  margin: 0px;
+  font-family: "Montserrat";
+  background: #1f1f1f;
+
+}
+
+header {
+  margin: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  font-size: 1.3em;
+}
+
+.navbar a {
+  margin-right: 2em;
+  text-decoration: none;
+  color: #ffffff;
+
+}
+
+img.solid-bar {
+
+  display: none;
+  visibility: hidden;
+}
+
+.about {
+  display: flex;
+
+  justify-content: space-around;
+  color: #ffffff;
+}
+
+
+.about1 {
+  margin-top: 15em;
+
+}
+
+.about1 h4 {
+  font-size: 1.3em;
+  color: #B4161B;
+
+
+}
+
+.about1 h1 {
+  font-size: 4em;
+  margin-bottom: 20px;
+
+
+}
+
+.about1 p {
+  margin-bottom: 20px;
+}
+
+button.button {
+  padding: 1em 2.2em;
+  background: #B4161B;
+  font-size: 1em;
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 8em;
+  margin-bottom: 8em;
+
+}
+
+.productDetail {
+  padding: 3em 2em;
+  margin-left: 2em;
+  width: 15%;
+  background: #b8adad1a;
+
+}
+
+.productDetail h2 {
+  margin-top: 1em;
+  color: #ffffff;
+  background: #b8adad00;
+
+}
+
+.productDetail p {
+  color: #ffffff;
+  margin-top: 16px;
+  background: #b8adad00;
+}
+
+.productDetail h4 {
+  color: #B4161B;
+  margin-top: 16px;
+  background: #b8adad00;
+}
+
+.experience {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 8em;
+  justify-content: center;
+
+}
+
+.experience1 {
+  margin-right: 3em;
+  margin-left: 7em;
+
+}
+
+.experience1 h1 {
+  color: #B4161B;
+
+  font-size: 9em;
+  text-align: center;
+
+}
+
+.experience1 h3 {
+  margin-top: -1em;
+  color: #ffffff;
+}
+
+.experience2 {
+
+  display: flex;
+  flex-wrap: wrap;
+
+  text-align: center;
+}
+
+.exp {
+  margin-right: 1em;
+  margin-top: 1em;
+  width: 40%;
+
+  background: #524e4e54;
+
+}
+
+.exp h3 {
+  color: #B4161B;
+  font-size: 2.7em;
+  background: #524e4e00;
+
+  margin-right: 1em;
+}
+
+.exp h6 {
+
+  font-size: 1em;
+  color: #ffffff;
+  background: #524e4e00;
+
+  margin-bottom: 2em;
+  margin-right: 1em;
+}
+
+.head {
+  margin: 4em 15em;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+
+}
+
+.head1 h1 {
+  margin-bottom: 15px;
+}
+
+.details {
+  padding: 0em 14em;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #ffffff;
+
+}
+
+.detail img {
+  background: #66646425;
+  padding: 4em;
+
+}
+
+.detail h2 {
+  font-size: 1.6em;
+  margin-top: 1em;
+}
+
+.detail h4 {
+  margin-bottom: 1em;
+  color: #B4161B;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  background: #4744444b;
+  margin: 7em 18em;
+  padding: 2em 4em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactHead {
+  font-size: 1em;
+}
+
+.contactHead h1 {
+  background: #4744444b;
+  color: #ffffff;
+
+}
+
+.contactHead p {
+  background: #4744444b;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+
+.nav {
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav a {
+  /* margin-right: 2em; */
+  text-decoration: none;
+  color: #ffffff;
+
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 2em;
+  margin-top: 2em;
+  padding-bottom: 1em;
+
+}
+
+footer .logo {
+  width: 8em;
+  margin-left: -9em;
+}
+
+.social {
+  margin-right: -9em;
+}
+
+.social img {
+  border-radius: 20px;
+  width: 30px;
+  margin-left: 20px;
+  filter: invert();
+
+
+}
+
+@media screen and (max-width:1100px) {
+
+  header {
+
+    justify-content: space-between;
+
+  }
+
+  img.logo {
+    height: 35px;
+  }
+
+  .navbar {
+    display: none;
+    visibility: hidden;
+  }
+
+  img.solid-bar {
+    display: block;
+    visibility: visible;
+    height: 25px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+  }
+
+  .about img {
+    width: 50vw;
+  }
+
+  .about1 {
+    margin-top: 2em;
+    margin-left: 0em;
+
+  }
+
+  .about1 h4 {
+    font-size: 0.7em;
+
+  }
+
+  .about1 h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+
+
+  }
+
+  .about1 p {
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  button.button {
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 0.7em 1.7em;
+
+
+  }
+
+  .product {
+    flex-direction: column;
+    align-items: center;
+    margin: 5em 0em;
+
+
+  }
+
+  .productDetail {
+
+    padding: 3em 3em;
+    margin: 1em 0em;
+    width: 25%;
+    text-align: center;
+
+  }
+
+
+  .experience {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .experience1 {
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+
+  .experience1 h1 {
+    font-size: 7em;
+  }
+
+  .experience1 h3 {
+    font-size: 1em;
+  }
+
+
+  .experience2 {
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+
+  }
+
+  .exp {
+    text-align: center;
+    padding: 15px;
+
+    width: 40vw;
+
+  }
+
+  .exp h3 {
+
+    font-size: 2em;
+    margin-right: 0em;
+  }
+
+  .exp h6 {
+
+    font-size: 1em;
+    margin-right: 0em;
+  }
+
+
+  .projects {
+    align-items: center;
+
+  }
+
+  .head {
+    text-align: center;
+    margin: 3em 0em;
+
+    flex-direction: column;
+
+
+  }
+
+  .head1 h1 {
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+
+  .head1 p {
+    padding: 0px 10px;
+  }
+
+  .head2 {
+    margin-top: 1em;
+  }
+
+  .details {
+    text-align: center;
+    padding: 0em;
+    flex-direction: column;
+
+  }
+
+
+  .detail img {
+    background: #66646425;
+    width: 50vw;
+    padding: 2em;
+
+  }
+
+  .detail h2 {
+    font-size: 1.2em;
+    margin-top: 1em;
+  }
+
+  .detail h4 {
+    font-size: 0.8em;
+
+  }
+
+  .contact {
+
+    margin: 5em auto;
+    width: 40vw;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+
+  }
+
+  .contactHead {
+    width: auto;
+    font-size: 1em;
+
+  }
+
+  .contactHead h1 {
+    font-size: 1.3em;
+
+  }
+
+  .contactHead p {
+    font-size: 0.8em;
+  }
+
+  .contact button.button {
+    margin-top: 6px;
+  }
+
+  .nav {
+    gap: 4px;
+    font-size: 13px;
+  }
+
+
+  footer {
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+
+  }
+
+  footer .logo {
+    width: 7em;
+    margin-left: 0em;
+  }
+
+  .social {
+
+    margin: 5px 0em;
+  }
+
+  .social img {
+
+    margin-left: 0px;
+
+  }
+
+
+}
